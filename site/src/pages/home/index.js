@@ -11,7 +11,7 @@ export default function Index(){
     async function salvarClick() {
         try {
             await novoHeroi (nome, poder, voa) 
-            alert ('Heroi salvo')
+            alert ('Heroi salvo com sucesso amigo')
 
         } catch (err) {
                 alert(err.response.data.erro);
